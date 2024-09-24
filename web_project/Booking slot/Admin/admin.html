@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+    
+</head>
+<body>
+    
+
+<div class="container">
+    <!----aside section strat-->
+   <aside>
+    <div class="top">
+        <div class="logo">
+            <h2>Park<span class="danger">Plus</span></h2>
+        </div>
+        <div class="close">
+            <span><img src="close.png" id="close"></i></span>
+        </div>
+     </div>
+
+     <div class="sidebar">
+        <a href="#"><img src="menu.png"><h3>Dashbord</h3></a>
+        <a href="#" class="active"><img src="customer.png"><h3>Customer</h3></a>
+        <a href="#"><img src="analytics.png"><h3>Analytics</h3></a>
+        <a href="#"><img src="message.png"><h3>Message<span class="msg">14</span></h3></a>
+        <a href="booking.html"><img src="parking-area.png"><h3>Parking Slots</h3></a>
+        <a href="#"><img src="report.png"><h3>Report</h3></a>
+        <a href="#"><img src="rate.png"><h3>Parking Rate</h3></a>
+        <a href="#"><img src="settings.png"><h3>settings</h3></a>
+        <a href="#"><img src="add-user.png"><h3>Add User</h3></a>
+        <a href="#"><img src="exit.png"><h3>Log Out</h3></a>
+
+    </div>
+   </aside>
+    
+
+    <!----main section strat-->
+<main>
+    <h1>Dashbord</h1>
+    <div class="date">
+        <input type="date"></div>
+
+    <div class="insights">
+        <div class="maininsights">
+            <div class="box">
+                <div class="details">
+                    <img src="parking-area.png" id="Available">
+                    <h4>Available Slots</h4>
+                    <h2>16</h2>
+                    <small>Last 1 minutes ago</small>
+                    <svg>
+                        <circle r="25" cx="25" cy="25"></circle>
+                    </svg>
+                </div>
+                
+            </div>
+
+            <div class="box">
+                <div class="details">
+                    <img src="parking.png" id="total">
+                    <h4>Total Slots</h4>
+                    <h2>48</h2>
+                    <small>Last 1 minutes ago</small>
+                    <svg>
+                        <circle r="25" cx="25" cy="25"></circle>
+                    </svg>
+                </div>
+                
+            </div>
+
+            <div class="box">
+                <div class="details">
+                    <img src="income.png" id="income">
+                    <h4>Income </h4>
+                    <h2>Rs:9800.00</h2>
+                    <small>Last 1 minutes ago</small>
+                    <svg>
+                        <circle r="25" cx="25" cy="25"></circle>
+                    </svg>
+                </div>
+                
+            </div>
+            
+
+            
+        </div>
+            
+    </div> 
+
+    <div class="recent">
+        <h1>Recent</h1>
+        <div class="recent_box">
+            <table>
+                <thead>
+                    <th>User Name</th>
+                    <th>Reserve Slot</th>
+                    <th>payment</th>
+                    <th>Status</th>
+                </thead>
+                <tbody>
+
+
+                    <tr>
+                        <td>Anura</td>
+                        <td>A-01</td>
+                        <td>800.00</td>
+                        <td class="warning">Pending</td>
+                        <td class="primary">Details</td>
+                    </tr>
+                    <tr>
+                        <td>Bimal</td>
+                        <td>A-02</td>
+                        <td>800.00</td>
+                        <td class="warning">Pending</td>
+                        <td class="primary">Details</td>
+                    </tr>
+                    <tr>
+                        <td>sham</td>
+                        <td>A-05</td>
+                        <td>800.00</td>
+                        <td class="warning">Pending</td>
+                        <td class="primary">Details</td>
+                    </tr>
+                    <tr>
+                        <td>Asanka</td>
+                        <td>A-05</td>
+                        <td>800.00</td>
+                        <td class="warning">Pending</td>
+                        <td class="primary">Details</td>
+                    </tr>
+                    <tr>
+                        <td>Anil</td>
+                        <td>A-05</td>
+                        <td>800.00</td>
+                        <td class="warning">Pending</td>
+                        <td class="primary">Details</td>
+                    </tr>
+
+
+
+                </tbody>
+
+            
+            </table>
+        </div>
+    </div>
+</main>
+    <!----main section end-->
+
+    <div class="right">
+        <div class="top">
+            <button id="menu_bar">
+                <img src="Hamburg.png">
+            </button>
+        </div>
+        <div class="theme-trigger">
+            <img src="dark.png">
+            <img src="light.png">
+        </div>
+        <div class="profile">
+            <div class="info">
+                <p><b>Amal</b></p>
+                <p>Admin</p>
+               <small class="text-muted"></small>
+               <div class="profile-photo">
+                <img src="user-image.jpg">
+               </div>
+            </div>
+        </div>
+        <!----end top-->
+
+
+        <div class="staff-updates">
+            <h2>Staff Updates</h2>
+        </div>
+
+         <div class="update">
+            <div class="profile-photo">
+                <img src="user-image.jpg">
+            </div>
+             <h4 class="message">
+               <p><span>Warden :</span> &nbsp Recived Message</p>
+             </h4>
+            
+            <div class="profile-photo">
+                <img src="manager.jpg">
+            </div>
+            <h4 class="message">
+                <p><span>Manger :</span> &nbsp Recived Message</p>
+              </h4>
+
+              <div class="profile-photo">
+                <img src="maintanace.jpg">
+            </div>
+             <h4 class="message">
+               <p><span>Maintanance Team :</span> &nbsp Recived Message</p>
+             </h4>
+             
+         
+         </div>
+
+     
+
+         
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

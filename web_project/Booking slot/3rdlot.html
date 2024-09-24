@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking.css">
+
+</head>
+<body>
+<div class="background">
+
+    
+   <div class="container">
+    <p class="header">
+        Reserve a Parking Spot
+    </p>
+        <div class="slots">
+        <div class="box"id="C-1">C-1<img src="truck.png"></div>
+        <div class="box" id="C-2">C-2<img src="truck.png"></div>
+        <div class="box"id="C-3">C-3<img src="truck.png"></div>
+        <div class="box"id="C-4">C-4<img src="truck.png"></div>
+        <div class="box"id="C-5">C-5<img src="truck.png"></div>
+        <div class="box"id="C-6">C-6<img src="truck.png"></div>
+        <div class="box"id="C-7">C-7<img src="truck.png"></div>
+        <div class="box"id="C-8">C-8<img src="truck.png"></div>
+        <div class="box"id="C-9">C-9<img src="truck.png"></div>
+        <div class="box">C-10<img src="truck.png"></div>
+        <div class="box">C-11<img src="truck.png"></div>
+        <div class="box">C-12<img src="truck.png"></div>
+        <div class="box">C-13<img src="truck.png"></div>
+        <div class="box">C-14<img src="truck.png"></div>
+        <div class="box">C-15<img src="truck.png"></div>
+        <div class="box">C-16<img src="truck.png"></div>
+        <div class="box">C-17<img src="truck.png"></div>
+        <div class="box">C-18<img src="truck.png"></div>
+        <div class="box">C-19<img src="truck.png"></div>
+        <div class="box">C-20<img src="truck.png"></div>
+        <div class="box">C-21<img src="truck.png"></div>
+        <div class="box">C-22<img src="truck.png"></div>
+        <div class="box">C-23<img src="truck.png"></div>
+        <div class="box">C-24<img src="truck.png"></div>
+        
+        
+        
+        <div class="identify">
+            <div class="reserve"><div class="txt1">Free</div></div>
+            <div class="free"><div class="txt2">Reserved</div></div>
+      </div>
+       
+      <div class="Navigation-page">
+       
+            <a href="booking.html">1</a>
+            <a href="2ndlot.html">2</a>
+            <a href="3rdlot.html">3</a>
+        
+        
+      <!------Booking Section-->
+        
+    </div>
+
+    <div class="booking-form" id="form">
+       
+        <div class="box1">
+            <div class="boxheader">
+                <div class="close"></div>
+                <h2 class="book">
+                    Booking
+                </h2>
+               
+            </div> 
+            <div class="box2">
+                <h3>Slot address</h3>
+                <h3 id="fee">Fee</h3>
+            </div>
+            <div class="defaultvalue">
+                <h3 id="slotnum">A-01</h3>
+                <h3>RS:500.00</h3>
+            </div>
+            <div class="box3">
+                <h3>Arrive Before</h3>
+                <input type="time" id="in-time">
+                <h3>Arrive Before</h3>
+                <input type="time" id="out-time">
+                <h3>Vehicle Number</h3>
+                <input type="text" id="vehiclenumber" placeholder="Wx-3456" readonly>
+                <h3>Total</h3>
+                <h3 id="total">Rs:500.00</h3>
+            </div>   
+               <button id="confirm" onclick="calculateFee()">Confirm</button>
+        </div>
+        
+    </div> 
+         
+
+     </div>
+</div>
+
+</div>
+
+<script src="Booking.js"></script>
+</body>
+</html>
