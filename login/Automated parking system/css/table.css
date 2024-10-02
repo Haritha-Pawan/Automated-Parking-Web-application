@@ -1,0 +1,147 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+
+--primary:#7380ec;
+--danger:#ff7782;
+--success:#41f1b6;
+--white:#ffff;
+--info-dark:#7d8da1;
+--info-light:#dce1eb;
+--dark:#363949;
+--warning:#ff4edc;
+--light:rgba(132,139,200,0.18);
+--primary-varient:#111e88;
+--dark-varient:#677483;
+--color-background:#f0eee4;
+
+}
+
+body{
+    background-color: var(--color-background);
+    width: 100vh;
+    height: auto;
+    
+}
+.table{
+    background-color: var(--color-background);
+    width: 75%;
+    border: none;
+    border-spacing: 0;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 300px;
+}
+
+
+.table th{
+    
+    background-color:#007dfe;
+    font-size: 17px;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    height: 5px;
+    color: white;
+    
+    
+
+}
+
+
+
+
+
+.table td{
+    text-align: center;
+    font-size: 20px;
+}
+
+.table tr{
+    height: 40px;
+}
+
+.table{
+    table-layout: fixed;
+    transition: 0.4s;
+}
+.table th:nth-child(7){
+    width: 90px;
+}
+.table tr:nth-last-child(odd){
+    background-color:var(--white);
+}
+
+.table tr:nth-last-child(Even){
+    background-color:#CDE8E5;
+}
+
+
+.table .edit-btn{
+    background-color: #007dfe;
+    
+}
+
+
+.table .edit-btn{
+    background-color: #007dfe;
+    
+    display: inline-flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+
+
+.table a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.table .edit-btn{
+    
+    background-color: #007efc;
+border: 1px solid #007efc;
+width: 60px;
+border-radius: 3px;
+
+}
+
+.table .edit-btn:hover{
+    background-color:#026ad3;
+    border-radius: #026ad3;
+}
+
+
+.table .delete-btn{
+    background-color: rgb(231, 40, 40);
+   border: 3px solid rgb(231, 40, 40);
+    border-radius: 3px;
+    width: 60px;
+
+}
+
+.table .delete-btn:hover{
+    background-color:rgb(252, 20, 20);
+    border-color:rgb(252, 20, 20);
+    
+}
+
+
+.table{
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+

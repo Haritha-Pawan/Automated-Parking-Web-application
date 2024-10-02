@@ -1,0 +1,251 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*google fonts*/
+    
+    :root{
+
+        --primary:#7380ec;
+        --danger:#ff7782;
+        --success:#41f1b6;
+        --white:#ffff;
+        --info-dark:#7d8da1;
+        --info-light:#dce1eb;
+        --dark:#363949;
+        --warning:#ff4edc;
+        --light:rgba(132,139,200,0.18);
+        --primary-varient:#111e88;
+        --dark-varient:#677483;
+        --color-background:#f0eee4;
+        --new-blue:#007cff;
+        }
+        
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.container{
+    width: 100%;
+    height: 600px;
+background-color: var(--white);
+
+    
+}
+
+
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    /*border: 1px solid red;*/
+    text-align: center;
+    padding: 8px;
+    font-weight: 700;
+   /* background-color: rgba(255, 229, 35, 1);*/
+    color: var(--);
+   margin-top: 80px;
+backdrop-filter: blur(10px);
+
+}
+
+
+
+.slots{
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+   /* border: 1px solid blue;*/
+    display: flex;
+    gap: 18px ;
+    justify-content: center;
+    flex-wrap: wrap;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+    
+}
+
+
+
+
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: var(--new-blue);
+    text-align: center;
+   font-weight: 700;
+   padding: 2px;
+   /*border-radius: 50%;*/
+    
+}
+.box:hover{
+    scale: 1.1;
+}
+.box img{
+    width: 65px;
+    height: 50px; 
+    
+
+}
+
+.identify{
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+    color: black;
+    
+
+}
+.identify .reserve{
+    width: 40px;
+    height: 40px;
+    background-color:var(--new-blue);
+   
+}
+
+.free{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(233, 7, 7);
+}
+
+.identify .txt1,.txt2{
+    text-align: center;
+font-weight: 700;
+position: relative;
+left: 50px;
+top: 10px;
+
+}
+.Navigation-page{
+    
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Navigation-page  a{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin-left: 10px;
+  color:#ffe522 ;
+  border-radius: 50%;
+
+
+
+}
+
+
+  /*Booking form start */
+.booking-form{
+    padding: 20px;
+    position: relative;
+    top: -460px;
+    
+}
+
+#form{
+    display: none;
+}
+
+
+  .box1{
+    width: 420px;
+    height: 420px;
+    background-color: white;
+    border-radius: 20px;
+border: 1px solid black;
+box-shadow: 10px 10px 10px  ;
+}
+ 
+.boxheader{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.box2{
+    width: 100%;
+    height: 30px;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+#fee{
+    margin-right: 40px;
+}
+.box2 h3{
+    margin-right: 53px;
+}
+
+.box3{
+    width: 100%;
+    height: 250px;
+   /*border: 1px solid blue;*/
+    margin-top: 10px;
+    padding: 40px;
+   position: relative;
+   top: -30px;
+}
+
+.box3 input,#total{
+position: relative;
+left: 190px;
+top: -25px;
+padding: 5px;
+border-radius: 5px;
+border-color: none;
+width: 140px;
+background: transparent;
+}
+
+.box3 #vehiclenumber{
+width: 140px;
+}
+
+#confirm{
+   
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    width: 190px;
+     color: Black;
+    margin: 0 auto;
+    background-color:white ;
+    border-radius: 17px;
+    font-size: 19px;
+    cursor: pointer;
+    font-weight: 700;
+    position: relative;
+    top: -30px;
+    width: 90%;
+    background-color: #007DFE;
+}
+
+#confirm:disabled{
+    background-color: red;
+    opacity: 0.5;
+}
+
+.red-box{
+    background-color: red;
+}
+
+
+
+
