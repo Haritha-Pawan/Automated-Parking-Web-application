@@ -1,0 +1,36 @@
+.header1{
+    text-align: center;
+}
+.button button
+{
+   width: 90px;
+   height: 40px;
+   position: relative;
+   top: 100px;
+   background-color:rgb(32, 32, 216);
+   font-size: 25px;
+   color: white;
+   border-radius: 15px; 
+
+}
+
+.name input{
+
+    position: relative;
+    top: 70px;
+    width: 250px;
+    height: 40px;
+    border-width: 1px;
+    border-color: rgb(70, 70, 243);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+
+    
+}
+.name label{
+    position: relative;
+    top: 80px;
+    right: 90px;
+   
+}

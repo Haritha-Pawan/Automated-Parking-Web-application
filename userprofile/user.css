@@ -1,0 +1,249 @@
+
+
+:root{
+
+    --primary:#7380ec;
+    --danger:#ff7782;
+    --success:#41f1b6;
+    --white:#ffff;
+    --info-dark:#7d8da1;
+    --info-light:#dce1eb;
+    --dark:#363949;
+    --warning:#ff4edc;
+    --light:rgba(132,139,200,0.18);
+    --primary-varient:#111e88;
+    --dark-varient:#677483;
+    --color-background:#f0eee4;
+    --color-blue:#067cfb;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+        width: 100vw;
+        height: 900px;
+        padding: 30px ;
+        transition: 0.4s;
+}
+
+.container .aside{
+    width: 400px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container .right-side{
+    width:600px;
+    height: 100vh;
+    background-color:var(--white);
+    position: absolute;
+    right: 0;
+    top:0;
+    padding: 20px;
+    margin-right: 360px;
+  
+
+}
+
+.right-side h2{
+    margin-left: 20px;
+}
+
+.image img{
+    width: 250px;
+    height: 250px;
+    background-color: wheat;
+    border-radius: 50%;
+    position: relative;
+    top: 90px;
+    left: 70px;
+
+
+}
+
+.image .dpchange{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 1px;
+    margin-bottom: 19px;
+    border:5px double  black ;
+   cursor: pointer;
+    
+}
+
+.container .name{
+    text-align: center;
+    position: relative;
+    top: 110px;
+    line-height: 15px;
+    
+}
+.container label{
+    display: flex;
+    /*border: 1px solid orange;*/
+
+}
+
+
+/*right side*/
+
+
+.right-side .header h2{
+    font-size: 32px;
+}
+
+.right-side .name{
+    border: 1px solid white;
+    display:flex;
+    justify-content: lef; 
+    top: 30px;
+    padding: 20px;
+    height: 20px;
+  
+}
+
+.name label{
+    position:relative;
+    top: -35px;
+    right: 30px;
+    margin-left: 30px;
+   
+}
+
+
+.form input[type=text],input[type=number],input[type=email]{
+padding: 10px;
+color: var(--dark-varient);
+font-weight: 600;
+}
+
+.name input{
+    position: relative;
+  right: 73px;
+  height: 30px;
+  border: 1px solid var(--info-dark);
+  border-radius: 5px;
+  width: 370px;
+  background-color: transparent;
+
+}
+
+.secondary-details{
+    position: relative;
+    top: 60px;
+    margin-left: 20px;
+    margin-bottom: 19px;
+ 
+
+}
+
+.secondary-details label{
+   /* border: 1px solid black;*/
+    display: flex;
+}
+
+.secondary-details input{
+    height: 30px;
+    width: 450px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--info-dark);
+}
+
+
+.secondary-details select{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.secondary-details img{
+    width: 25px;
+    height: 25px;
+   position: absolute;
+   cursor: pointer;
+   
+
+   
+}
+
+
+.secondary-details .address{
+    display: flex;
+}
+
+
+.secondary-details .address #add1,#district,#province{
+    border: 1px solid navy;
+width: 200px;
+position: relative;
+top: 20px;
+right: 50px;
+}
+
+.secondary-details .city{
+   
+   position: relative;
+   right: 16px;
+   top: -29px;
+}
+
+.button
+{
+    width: 25%;
+    height: 25px;
+    background-color:#007dfe;
+    position: relative;
+     top: 70px;
+     font-size: 15px;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     
+
+}
+.Dbutton{
+
+    width: 25%;
+    height: 25px;
+    background-color:#007dfe;
+    position: relative;
+     top: 45px;
+     left: 300px;
+     font-size: 15px;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     
+}
+
+
+
+
+.ads{
+    width: 300px;
+    height: 400px;
+    background-image: url(add.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+   top: 90px;
+   right: 40px;
+}
+
+.ads h3{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: 800;
+}
